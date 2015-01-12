@@ -1,0 +1,127 @@
+/* 
+    Document   : css
+    Created on : 11/01/2015, 22:41:34
+    Author     : PJCanete
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+/*?///////////////////////////////////////////////////////////*/
+#menu {
+font-family: "Monotype Corsiva", bold;
+font-size: 21px;
+width: 100%;
+/*background-image:url(image/Vermelho-Abstrato--122503_1920x1200.jpg);*/
+}
+
+
+#menu ul{
+float: left;
+list-style: none;
+background-color:#FFA500;        
+background-attachment: fixed;	
+/*background-image:url(image/Vermelho-Abstrato--122503_1920x1200.jpg)	;*/
+text-transform: uppercase;
+margin: 15 15 15 15px;
+padding: 20px;	
+display: inline;   
+width:15%; 
+}
+
+#menu ul.barra {
+width:95%;
+padding: 0;
+margin: 10px 10px 10px 10px;
+float: left;
+background-size: 100% 100%;
+font-size: larger;
+
+}
+
+#menu ul.barra li.barra { 
+list-style-type: none;
+display: inline;
+cursor: pointer;
+float: left;
+}
+
+#menu ul.barra li.barra a.barra {
+padding: 10px;
+float:left;
+color: #fff;
+text-decoration: none;
+text-align: center;
+border-right: 1px solid white;
+width: 105%;
+}
+
+#menu ul.barra li.barra a.barra:hover {
+
+background-size: 110% 110%;
+font-weight: bold;
+color: #fff;
+border-color: 1px solid #FFF;
+
+}
+
+
+#menu ul.barra li.barra ul.bloco {
+list-style: none;
+font-size: 23px;
+display: none;
+background-size: 100% 100%;
+position: absolute !important;
+z-index: 5;
+margin: 40px 0px 0px 0px;
+padding: 10px 30px 0px 0px;
+border-color:#FFF;
+}
+
+#menu ul.barra li.barra:hover ul.bloco {
+display: block;
+border-color:#FFF;
+width: 25%;
+}
+
+#menu ul.barra li.barra ul.bloco li.bloco {
+/*position:relative !important;*/
+/*top: 0px !important;*/
+background-color:#FFA500;
+width:100%;
+height: 100%;
+border-bottom-color:#FFF;
+}
+
+#menu ul.barra li.barra ul.bloco li.bloco a.bloco {
+color:#fff;
+width: 160px;
+height: 100px;
+
+text-decoration: none;
+border-bottom-color:#FFF;
+}
+
+#menu ul.barra li.barra ul.bloco li.bloco:hover {
+background-size: 100% 100%;
+font-weight: bold;
+color:#F00;
+border-bottom-color:#FFF;
+width: 25%;
+height: 50%;
+}
+
+
+
+/*?/////////////////////////MAIN////////////////////////////////*/
+
+#main {
+	float: left;
+	width: 67%;
+	padding: 20px 0 0 0; margin: 0 0 0 10px;
+	display: inline;
+}
