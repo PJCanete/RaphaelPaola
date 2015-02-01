@@ -11,11 +11,151 @@ root {
 }
 
 
+/*                   DIV FOTO     */         
+
+
+* {
+margin : 0;
+padding : 0;
+}
+/*html {
+height : 100%;
+}
+body {
+height : 100%;
+color : #a4a4a4;
+cursor : default;
+font-size : 11px;
+line-height : 16px;
+text-align : center
+background-color : #fff;
+background-position : 50% 0;
+background-repeat : no-repeat;
+font-family : Tahoma, sans-serif;
+};*/
+a:link, a:visited {
+color : #fff;
+text-decoration : none;
+}
+a img {
+border : 0;
+}
+div.wrap {
+width : 993px;
+margin : 0 auto;
+text-align : left;
+}
+div#top div#nav {
+float : left;
+clear : both;
+width : 993px;
+height : 52px;
+margin : 22px 0 0;
+}
+div#top div#nav ul {
+float : left;
+width : 700px;
+height : 52px;
+list-style-type : none;
+}
+div#nav ul li {
+float : left;
+height : 52px;
+}
+div#nav ul li a {
+border : 0;
+height : 52px;
+display : block;
+line-height : 52px;
+text-indent : -9999px;
+}
+div#header {
+margin : -1px 0 0;
+}
+div#video-header {
+height : 683px;
+margin : -1px 0 0;
+}
+div#header div.wrap {
+height : 299px;
+background : url(images/header-bg.png) no-repeat 50% 0;
+}
+div#header div#slide-holder {
+z-index : 40;
+width : 993px;
+height : 299px;
+position : absolute;
+}
+div#header div#slide-holder div#slide-runner {
+top : 9px;
+left : 9px;
+width : 973px;
+height : 278px;
+overflow : hidden;
+position : absolute;
+}
+div#header div#slide-holder img {
+margin : 0;
+display : none;
+position : absolute;
+}
+div#header div#slide-holder div#slide-controls {
+left : 0;
+bottom : 228px;
+width : 973px;
+height : 46px;
+display : none;
+position : absolute;
+background : url(images/slide-bg.png) 0 0;
+}
+div#header div#slide-holder div#slide-controls p.text {
+float : left;
+color : #fff;
+display : inline;
+font-size : 10px;
+line-height : 16px;
+margin : 15px 0 0 20px;
+text-transform : uppercase;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav {
+float : right;
+height : 24px;
+display : inline;
+margin : 11px 15px 0 0;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+line-height : 24px;
+font-weight : bold;
+/*text-align : center;*/
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a.on {
+background-position : 0 -24px;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+background-image : url(images/silde-nav.png);
+}
+div#nav ul li a {
+background : url(images/nav.png) no-repeat;
+}
+
 /*?///////////////////////////////////////////////////////////*/
 #menu {
 font-family: "Monotype Corsiva", bold;
 font-size: 21px;
-width: 100%;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+filter: alpha(opacity=65);
+alignment-adjust:initial;
 /*background-image:url(image/Vermelho-Abstrato--122503_1920x1200.jpg);*/
 }
 
@@ -28,7 +168,7 @@ background-attachment: fixed;
 /*background-image:url(image/Vermelho-Abstrato--122503_1920x1200.jpg)	;*/
 text-transform: uppercase;
 margin: 15 15 15 15px;
-padding: 20px;	
+padding-bottom: 5,5,5,5px;	
 display: inline;   
 width:15%; 
 }
@@ -48,6 +188,7 @@ list-style-type: none;
 display: inline;
 cursor: pointer;
 float: left;
+padding-bottom: 5,5,5,5;
 }
 
 #menu ul.barra li.barra a.barra {
@@ -55,7 +196,7 @@ padding: 10px;
 float:left;
 color: #fff;
 text-decoration: none;
-text-align: center;
+text-align: justify;
 border-right: 1px solid white;
 width: 105%;
 }
